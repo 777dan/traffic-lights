@@ -9,14 +9,14 @@ function trafficLightsFunc() {
     return changeColor;
 }
 
-let trafficLights1 = trafficLightsFunc();
+let trafficLight1 = trafficLightsFunc();
 for (let i = 0; i < 5; i++) {
-    let color = trafficLights1();
-    console.log('%c ' + color + ' ', 'background: ' + color + '; color: white;');
+    let color = trafficLight1();
+    console.log('%c 1 traffic light ', 'background: ' + color + '; color: white;');
 }
 console.log("-----");
-let trafficLights2 = trafficLightsFunc();
+let trafficLight2 = trafficLightsFunc();
 for (let i = 0; i < 5; i++) {
-    let color = trafficLights2();
-    console.log('%c ' + color + ' ', 'background: ' + color + '; color: white;');
+    let color = trafficLight2();
+    console.log('%c 2 traffic light ', 'background: ' + color + '; color: white;');
 }
